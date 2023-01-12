@@ -1,4 +1,4 @@
 # ProyectoDAM
 Proyecto de Java del laberinto
 
-Primera fecha de subida: 12-01-2023
+Primera parte del proyecto: subido el 12-01-2023
