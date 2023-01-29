@@ -82,29 +82,25 @@ public class Maze {
 			return;
 		}
 		
-		// BufferedReader es una clase de Java que permite leer texto de forma sencilla.
+		// BufferedReader es una clase de Java que permite leer texto de ficheros o archivos.
 		// Dentro del constructor de la clase BufferedReader llamamos a otra clase llamada FileReader, esta ultima
 		// hara llamar al fichero a leer pasandole la ruta de este (filename).
-		// Nota: Se usa try-catch porque el uso de BufferedReader da muchas excepciones.
+		// Nota: Se usa try-with en lugar de try-catch, porque el uso de BufferedReader da muchas excepciones.
+		// y siempre deben cerrarse correctamente los recursos despues de leer los ficheros.
 
-		// El siguiente try-with inicializa/dimensiona el array bidimensional de map, segun las filas y columnas del
-		// laberinto seleccionado
-		// try-with hace... TODO
-		// TRY-WITH-RESOURCES HA SIDO LA CLAVE PARA QUE LA SIGUIENTE IMPLEMENTACION PUEDA FUNCIONAR
-		// El gran dolor de cabeza estaba en que BufferedReader da muchas excepciones porque debe cerrarse al acabar
-		// el programa. Y para que esto pasara debe ir envuelto en muchos try-catch, pero try-with lo hace mas comodo
-		// y mas precisoa
+		// COMENTARIOS... TODO
         try (BufferedReader file_length = new BufferedReader(new FileReader(this.filename))) {
         	int rows_length = 0;
         	int cols_length = 0;
         	String line_length;
             while ((line_length = file_length.readLine()) != null) {
             	rows_length++;
-            	// TODO Para la siguiente linea es mas eficiente introducirla un bucle while que se realice solo una vez.
-            	cols_length = line_length.length();
+            	// Con Math.max, al final de bucle se obtendra la longitud de la linea mas larga. Y por tanto, el numero de 
+            	// columnas que contiene el laberinto.
+            	cols_length = Math.max(cols_length, line_length.length());
             }
             // Lo inicializamos
-            map = new char[rows_length][cols_length];
+            this.map = new char[rows_length][cols_length];
         } catch (FileNotFoundException e) {
 			e.printStackTrace();
 		} catch (IOException e) {
@@ -117,11 +113,11 @@ public class Maze {
 		// contenga algun caracter, pues se seguira iterando y guardando cada linea en el string line.
 		// Despues cada una de las lineas se almacena como char, con el metodo charAt, siendo J la posicion de cada
 		// caracter, y por tanto cada elemento de la linea correspondiente. I sera cada linea del fichero.
-		// El metodo (readLine()), usado para leer cada linea del fichero, es perteneciente a la clase BufferedReader
+		// El metodo (readLine()), que es usado para leer cada linea del fichero, es perteneciente a la clase BufferedReader
 		try (BufferedReader file = new BufferedReader(new FileReader(this.filename))){
 			String line;
 			int i = 0;
-			// meter bucle while line_length.readerLine() != null aqui
+			
 			while ((line = file.readLine()) != null) {
 				
 				for (int j = 0; j < line.length(); j++) {
