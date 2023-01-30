@@ -33,23 +33,10 @@ public class Maze {
 		// array file(es en este array donde se recorre la carpeta mazes y se guarda cada nombre de un fichero en una
 		// posicion del array files y lo devuelve llamando al metodo) del numero introducido, y asi es como se cargara
 		this.filename = file[number-1].toString();
-		/*
-		// inicializar array bi map
-		try {
-			BufferedReader file_length = new BufferedReader(new FileReader(this.filename));
-		    // Obtener la primera línea del archivo para obtener el número de filas
-		    int rows = file_length.readLine().length();
-		    // Obtener la segunda línea del archivo para obtener el número de columnas
-		    int cols = file_length.readLine().length();
-		    // Inicializar el array bidimensional con las dimensiones obtenidas
-		    map = new char[rows][cols];
-		} catch(IOException e) {
-		   System.err.print("\nERROR. El array no ha podido ser inicializado/dimensionado correctamente.");
-		}
-		*/
+
 		if (file != null) {
 			this.loaded = true;
-			System.out.println("\nEL LABERINTO HA SIDO CARGADO CORRECTAMENTE!");
+			System.out.println("\nEL LABERINTO SELECCIONADO HA SIDO CARGADO CORRECTAMENTE!");
 		}
 		
 	} // cierre loadMaze()
@@ -89,19 +76,20 @@ public class Maze {
 		// y siempre deben cerrarse correctamente los recursos despues de leer los ficheros.
 
 		// COMENTARIOS... TODO
-        try (BufferedReader file_length = new BufferedReader(new FileReader(this.filename))) {
-        	int rows_length = 0;
-        	int cols_length = 0;
-        	String line_length;
-            while ((line_length = file_length.readLine()) != null) {
-            	rows_length++;
-            	// Con Math.max, al final de bucle se obtendra la longitud de la linea mas larga. Y por tanto, el numero de 
-            	// columnas que contiene el laberinto.
-            	cols_length = Math.max(cols_length, line_length.length());
-            }
-            // Lo inicializamos
-            this.map = new char[rows_length][cols_length];
-        } catch (FileNotFoundException e) {
+		try (BufferedReader file_length = new BufferedReader(new FileReader(this.filename))) {
+			int rows_length = 0;
+			int cols_length = 0;
+			String line_length;
+			while ((line_length = file_length.readLine()) != null) {
+				rows_length++;
+				// Con Math.max, al final de bucle se obtendra la longitud de la linea mas
+				// larga. Y por tanto, el numero de
+				// columnas que contiene el laberinto.
+				cols_length = Math.max(cols_length, line_length.length());
+			}
+			// Lo inicializamos
+			this.map = new char[rows_length][cols_length];
+		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		} catch (IOException e) {
 			e.printStackTrace();
@@ -137,11 +125,29 @@ public class Maze {
 	
 	public void setEntranceExit() {
 		
+		// Restriccion para que no se puedan introducir
+		// coordenadas sin haber pasado por la opcion numero 1 de seleccionar el laberinto
+		if(!this.loaded) {
+			System.err.println("\nAntes de mostrar un laberinto debes seleccionarlo.");
+			return;
+		}
+		
+		
 		System.out.print("\nIntroduce las coordenadas para la casilla de ENTRADA ");
 			startJ = Interface.getInt("\n\tIntroduza numero de columna: ");
 			startI = Interface.getInt("\n\tIntroduza numero de fila: ");
 			
-		map[startI][startJ] = 'E';
+			map[startI][startJ] = 'E';
+			System.out.print(map[startI][startJ]);
+			for(int i = 0; i < this.map.length; i++) {
+				for(int j = 0; j < this.map.length; j++) {
+					System.out.print(this.map[i][j]);
+					
+				}
+				
+				System.out.println();
+			}
+			
 		
 		System.out.print("\nIntroduce las coordenadas para la casilla de SALIDA ");
 			endJ = Interface.getInt("\n\tIntroduza numero de columna: ");
@@ -149,8 +155,8 @@ public class Maze {
 		
 		map[endI][endJ] = 'S';
 		
-		System.out.println(map[startI][startJ]);
-		System.out.println(map[endI][endJ]);
+		//System.out.println(map[startI][startJ]);
+		//System.out.println(map[endI][endJ]);
 			
 	} // cierre setEntranceExit()
 	
