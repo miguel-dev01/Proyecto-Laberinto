@@ -6,17 +6,14 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class Maze {
+public class Maze { 
 	
 	private char[][] map;
 	private String filename;
 	private boolean loaded;
-	private int startI;
-	private int startJ;
-	private int endI;
-	private int endJ;
+	private int startI, startJ, endI, endJ;
 	
-	public Maze() {
+	public Maze() { // Constructor de la clase Maze
 		this.loaded = false;
 		
 	}
@@ -24,17 +21,21 @@ public class Maze {
 	public void loadMaze() {
 		
 		System.out.println("\nSelecciona el fichero que contiene el laberinto que deseas cargar: ");
-		File[] file = showFilesinFolder();
+		File[] files = showFilesinFolder();
 		int number = Interface.getInt("\nSeleccione numero: ");
 		
-		// TODO Restriccion para que no se pueda introducir un numero que no corresponda a ningun fichero
+		// Restriccion para que no se pueda introducir un numero que no corresponda a ningun fichero/laberinto
+		if(number <= 0 || number > files.length) {
+			System.err.println("\nEl numero que has indicado no corresponde a ningun laberinto. Intentelo de nuevo.");
+			return;
+		}
 		
 		// Se seleccionara el nombre del fichero (junto con la ruta) que coincida con la posicion del 
 		// array file(es en este array donde se recorre la carpeta mazes y se guarda cada nombre de un fichero en una
 		// posicion del array files y lo devuelve llamando al metodo) del numero introducido, y asi es como se cargara
-		this.filename = file[number-1].toString();
+		this.filename = files[number-1].getName();
 
-		if (file != null) {
+		if (files != null) {
 			this.loaded = true;
 			System.out.println("\nEL LABERINTO SELECCIONADO HA SIDO CARGADO CORRECTAMENTE!");
 		}

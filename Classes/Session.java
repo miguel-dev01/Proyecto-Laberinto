@@ -95,7 +95,7 @@ public class Session {
 		
 		System.out.println("\nUSUARIO ACTUAL\n-------------\n");
 		System.out.println("Nombre de usuario: " + user.username);
-		System.out.println("Nombre: " + user.name);
+		System.out.println("Nombre y apellidos: " + user.name);
 		System.out.println("NIF: " + user.nif);
 		System.out.println("Email: " + user.email);
 		System.out.println("Direccion: " + user.address);
@@ -106,9 +106,10 @@ public class Session {
 	} // Cierre showUser()
 	
 	public void Logout() {
+		System.out.println("\nSesion cerrada. Hasta pronto " + user.name + ";)\n");
 		logged = false;
 		user = new User();
-		System.out.println("\nSesion cerrada. Hasta pronto ;)\n");
+		
 		
 	} // Cierre Logout()
 	
