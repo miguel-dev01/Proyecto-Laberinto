@@ -1,8 +1,8 @@
-# Proyecto 1º DAM Version 0.2.0
+# Proyecto 1º DAM Version 1.0.0
 Proyecto del laberinto con Java
 
-Segunda parte del proyecto: subido el 17/02/2023
+Tercera parte del proyecto: 
 
-Estado actual: Implementación finalizada
+Estado actual: En proceso de implementaci
 
 Nota: Las rutas, en concreto las barras, que hay predefinidas para buscar los ficheros con los usuarios y los laberintos pueden variar segun el sistema operativo. Windows --> '\' o Linux --> '/'.
