@@ -5,4 +5,4 @@ Segunda parte del proyecto: subido el 17/02/2023
 
 Estado actual: Implementación finalizada
 
-Nota: Las rutas, en concreto las barras, que hay predefinidas para buscar los ficheros con los usuarios y los laberintos puede variar segun el sistema operativo. Windows --> '\' o Linux --> '/'.
+Nota: Las rutas, en concreto las barras, que hay predefinidas para buscar los ficheros con los usuarios y los laberintos pueden variar segun el sistema operativo. Windows --> '\' o Linux --> '/'.
