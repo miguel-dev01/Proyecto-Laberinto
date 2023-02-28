@@ -5,4 +5,4 @@ Tercera parte del proyecto:
 
 Estado actual: En proceso de implementacion... (Puede contener errores)
 
-Nota: Las rutas, en concreto las barras, que hay predefinidas para buscar los ficheros con los usuarios y los laberintos pueden variar segun el sistema operativo. Windows --> '\' o Linux --> '/'.
+Nota: Las rutas, en concreto las barras, que hay predefinidas para buscar los ficheros con los usuarios y los laberintos pueden variar segun el sistema operativo. Windows --> '\\' o Linux --> '/'.
