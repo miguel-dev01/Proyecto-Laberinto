@@ -1,4 +1,4 @@
-#Proyecto 1º DAM Version 1.1.0
+# Proyecto 1º DAM Version 1.1.0
 
 Proyecto del laberinto con Java
 
