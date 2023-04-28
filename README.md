@@ -2,5 +2,8 @@
 
 Proyecto del laberinto con Java
 
-Quinta parte del proyecto:
+Quinta parte del proyecto
 
+Para esta entrega se van a implementar una serie de funcionalidades extras para el programa del laberinto, tales como generación de informes en PDF, gestión de usuarios, logs del sistema, modificacion de datos de usuario...
+
+Estado actual del proyecto: En implementación...
