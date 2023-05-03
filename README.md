@@ -8,6 +8,10 @@ Para esta entrega se van a implementar una serie de funcionalidades extras para 
 
 Estado actual del proyecto: En implementación...
 
+Las funcionalidades nuevas pueden ser:
+  -
+  -
+
 Notas: 
   - Puede contener errores
   - Se mantendrá la base de datos MySQL
