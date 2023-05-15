@@ -1,0 +1,172 @@
+15/05/2023 09:51:24 - Inicio del programa - Inicio sin errores
+15/05/2023 09:54:42 - Inicio del programa - Inicio sin errores
+15/05/2023 09:54:51 - Login fallido - Usuario: miguel
+15/05/2023 09:57:38 - Inicio del programa - Inicio sin errores
+15/05/2023 09:57:44 - Login exitoso - Usuario: miguel
+15/05/2023 09:57:46 - Usuario actual - Usuario: miguel, ID: 1
+15/05/2023 10:01:18 - Inicio del programa - Inicio sin errores
+15/05/2023 10:01:20 - Fin del programa - Finalizacion sin errores
+15/05/2023 10:27:44 - Inicio del programa - Inicio sin errores
+15/05/2023 10:27:53 - Login fallido - Usuario: miguel
+15/05/2023 10:28:00 - Login exitoso - Usuario: miguel
+15/05/2023 10:29:15 - Inicio del programa - Inicio sin errores
+15/05/2023 10:29:20 - Login fallido - Usuario: miguel
+15/05/2023 10:29:23 - Login exitoso - Usuario: miguel
+15/05/2023 10:30:32 - Inicio del programa - Inicio sin errores
+15/05/2023 10:30:38 - Login exitoso - Usuario: miguel
+15/05/2023 11:49:59 - Inicio del programa - Inicio sin errores
+15/05/2023 17:05:14 - Inicio del programa - Inicio sin errores
+15/05/2023 17:05:20 - Login exitoso - Usuario: miguel
+15/05/2023 17:05:44 - Usuario actual - Usuario: miguel, ID: 1
+15/05/2023 17:10:24 - Inicio del programa - Inicio sin errores
+15/05/2023 17:10:45 - Inicio del programa - Inicio sin errores
+15/05/2023 17:10:50 - Login exitoso - Usuario: miguel
+15/05/2023 17:13:53 - Inicio del programa - Inicio sin errores
+15/05/2023 17:13:57 - Login exitoso - Usuario: miguel
+15/05/2023 17:14:00 - Cargar laberinto - Laberinto: laberinto1.txt
+15/05/2023 17:16:19 - Inicio del programa - Inicio sin errores
+15/05/2023 17:16:26 - Login exitoso - Usuario: miguel
+15/05/2023 17:51:29 - Inicio del programa - Inicio sin errores
+15/05/2023 17:51:35 - Login exitoso - Usuario: miguel
+15/05/2023 17:51:37 - Usuario actual - Usuario: miguel, ID: 1
+15/05/2023 17:52:21 - Inicio del programa - Inicio sin errores
+15/05/2023 17:52:25 - Login exitoso - Usuario: miguel
+15/05/2023 17:56:03 - Inicio del programa - Inicio sin errores
+15/05/2023 17:56:09 - Login exitoso - Usuario: miguel
+15/05/2023 18:02:36 - Inicio del programa - Inicio sin errores
+15/05/2023 18:02:43 - Login exitoso - Usuario: miguel
+15/05/2023 18:03:57 - Inicio del programa - Inicio sin errores
+15/05/2023 18:04:05 - Login fallido - Usuario: miguel
+15/05/2023 18:04:19 - Login exitoso - Usuario: miguel
+15/05/2023 18:04:43 - Inicio del programa - Inicio sin errores
+15/05/2023 18:04:47 - Login exitoso - Usuario: miguel
+15/05/2023 18:10:36 - Inicio del programa - Inicio sin errores
+15/05/2023 18:10:41 - Login fallido - Usuario: miguel
+15/05/2023 18:10:43 - Login exitoso - Usuario: miguel
+15/05/2023 18:13:25 - Inicio del programa - Inicio sin errores
+15/05/2023 18:13:30 - Login exitoso - Usuario: miguel
+15/05/2023 18:14:24 - Inicio del programa - Inicio sin errores
+15/05/2023 18:14:29 - Login exitoso - Usuario: miguel
+15/05/2023 18:18:18 - Inicio del programa - Inicio sin errores
+15/05/2023 18:18:23 - Login exitoso - Usuario: miguel
+15/05/2023 18:21:14 - Inicio del programa - Inicio sin errores
+15/05/2023 18:21:18 - Login exitoso - Usuario: miguel
+15/05/2023 18:22:34 - Inicio del programa - Inicio sin errores
+15/05/2023 18:22:39 - Login exitoso - Usuario: miguel
+15/05/2023 18:24:45 - Inicio del programa - Inicio sin errores
+15/05/2023 18:24:50 - Login exitoso - Usuario: miguel
+15/05/2023 18:26:12 - Inicio del programa - Inicio sin errores
+15/05/2023 18:26:20 - Login exitoso - Usuario: miguel
+15/05/2023 18:28:17 - Inicio del programa - Inicio sin errores
+15/05/2023 18:28:21 - Login exitoso - Usuario: miguel
+15/05/2023 18:29:00 - Inicio del programa - Inicio sin errores
+15/05/2023 18:29:05 - Login exitoso - Usuario: miguel
+15/05/2023 18:31:47 - Inicio del programa - Inicio sin errores
+15/05/2023 18:32:23 - Inicio del programa - Inicio sin errores
+15/05/2023 18:32:29 - Login exitoso - Usuario: miguel
+15/05/2023 18:32:47 - Inicio del programa - Inicio sin errores
+15/05/2023 18:32:51 - Login exitoso - Usuario: miguel
+15/05/2023 18:38:10 - Inicio del programa - Inicio sin errores
+15/05/2023 18:38:15 - Login exitoso - Usuario: miguel
+15/05/2023 18:40:25 - Inicio del programa - Inicio sin errores
+15/05/2023 18:40:30 - Login exitoso - Usuario: miguel
+15/05/2023 18:48:45 - Inicio del programa - Inicio sin errores
+15/05/2023 18:48:51 - Login exitoso - Usuario: miguel
+15/05/2023 18:50:45 - Inicio del programa - Inicio sin errores
+15/05/2023 18:50:49 - Login exitoso - Usuario: miguel
+15/05/2023 18:51:57 - Inicio del programa - Inicio sin errores
+15/05/2023 18:52:03 - Registro fallido - Usuario: 1
+15/05/2023 18:52:07 - Inicio del programa - Inicio sin errores
+15/05/2023 18:52:11 - Login exitoso - Usuario: miguel
+15/05/2023 18:53:48 - Inicio del programa - Inicio sin errores
+15/05/2023 18:53:52 - Login exitoso - Usuario: miguel
+15/05/2023 18:54:12 - Inicio del programa - Inicio sin errores
+15/05/2023 18:54:15 - Login exitoso - Usuario: miguel
+15/05/2023 18:57:13 - Inicio del programa - Inicio sin errores
+15/05/2023 18:57:19 - Login exitoso - Usuario: miguel
+15/05/2023 19:01:20 - Inicio del programa - Inicio sin errores
+15/05/2023 19:01:24 - Login exitoso - Usuario: miguel
+15/05/2023 19:03:06 - Inicio del programa - Inicio sin errores
+15/05/2023 19:03:12 - Login exitoso - Usuario: miguel
+15/05/2023 19:03:37 - Inicio del programa - Inicio sin errores
+15/05/2023 19:03:42 - Login exitoso - Usuario: miguel
+15/05/2023 19:04:51 - Inicio del programa - Inicio sin errores
+15/05/2023 19:04:56 - Login exitoso - Usuario: miguel
+15/05/2023 19:06:55 - Inicio del programa - Inicio sin errores
+15/05/2023 19:06:59 - Login exitoso - Usuario: miguel
+15/05/2023 19:33:45 - Inicio del programa - Inicio sin errores
+15/05/2023 19:33:49 - Login exitoso - Usuario: miguel
+15/05/2023 19:34:03 - Inicio del programa - Inicio sin errores
+15/05/2023 19:34:09 - Login exitoso - Usuario: miguel
+15/05/2023 19:35:14 - Inicio del programa - Inicio sin errores
+15/05/2023 19:35:18 - Login exitoso - Usuario: miguel
+15/05/2023 19:35:20 - Cargar laberinto - Laberinto: laberinto1.txt
+15/05/2023 19:50:17 - Inicio del programa - Inicio sin errores
+15/05/2023 19:51:10 - Inicio del programa - Inicio sin errores
+15/05/2023 19:51:13 - Login exitoso - Usuario: miguel
+15/05/2023 19:52:27 - Inicio del programa - Inicio sin errores
+15/05/2023 19:52:32 - Login exitoso - Usuario: miguel
+15/05/2023 19:53:31 - Inicio del programa - Inicio sin errores
+15/05/2023 19:53:36 - Login exitoso - Usuario: miguel
+15/05/2023 19:57:58 - Inicio del programa - Inicio sin errores
+15/05/2023 19:58:02 - Login exitoso - Usuario: miguel
+15/05/2023 20:48:26 - Inicio del programa - Inicio sin errores
+15/05/2023 20:48:39 - Login exitoso - Usuario: miguel
+15/05/2023 20:51:08 - Inicio del programa - Inicio sin errores
+15/05/2023 20:51:17 - Login exitoso - Usuario: miguel
+15/05/2023 20:52:37 - Inicio del programa - Inicio sin errores
+15/05/2023 20:52:44 - Login exitoso - Usuario: miguel
+15/05/2023 21:05:17 - Inicio del programa - Inicio sin errores
+15/05/2023 21:05:37 - Login exitoso - Usuario: miguel
+15/05/2023 21:08:50 - Inicio del programa - Inicio sin errores
+15/05/2023 21:08:56 - Login exitoso - Usuario: miguel
+15/05/2023 21:09:24 - Inicio del programa - Inicio sin errores
+15/05/2023 21:10:07 - Inicio del programa - Inicio sin errores
+15/05/2023 21:17:24 - Inicio del programa - Inicio sin errores
+15/05/2023 21:20:16 - Inicio del programa - Inicio sin errores
+15/05/2023 21:20:25 - Login exitoso - Usuario: miguel
+15/05/2023 21:22:53 - Inicio del programa - Inicio sin errores
+15/05/2023 21:23:01 - Login exitoso - Usuario: miguel
+15/05/2023 21:26:50 - Inicio del programa - Inicio sin errores
+15/05/2023 21:26:55 - Login exitoso - Usuario: miguel
+15/05/2023 21:27:19 - Inicio del programa - Inicio sin errores
+15/05/2023 21:27:23 - Login exitoso - Usuario: miguel
+15/05/2023 21:28:30 - Inicio del programa - Inicio sin errores
+15/05/2023 21:28:35 - Login exitoso - Usuario: miguel
+15/05/2023 21:30:14 - Inicio del programa - Inicio sin errores
+15/05/2023 21:30:18 - Login exitoso - Usuario: miguel
+15/05/2023 21:30:50 - Inicio del programa - Inicio sin errores
+15/05/2023 21:30:55 - Login exitoso - Usuario: miguel
+15/05/2023 21:31:19 - Inicio del programa - Inicio sin errores
+15/05/2023 21:31:24 - Login exitoso - Usuario: miguel
+15/05/2023 21:32:22 - Inicio del programa - Inicio sin errores
+15/05/2023 21:32:25 - Login exitoso - Usuario: miguel
+15/05/2023 21:34:48 - Inicio del programa - Inicio sin errores
+15/05/2023 21:34:54 - Login exitoso - Usuario: miguel
+15/05/2023 21:40:05 - Inicio del programa - Inicio sin errores
+15/05/2023 21:40:09 - Login exitoso - Usuario: miguel
+15/05/2023 21:42:47 - Inicio del programa - Inicio sin errores
+15/05/2023 21:42:51 - Login exitoso - Usuario: miguel
+15/05/2023 21:45:04 - Inicio del programa - Inicio sin errores
+15/05/2023 21:45:09 - Login exitoso - Usuario: miguel
+15/05/2023 21:46:46 - Inicio del programa - Inicio sin errores
+15/05/2023 21:46:51 - Login exitoso - Usuario: miguel
+15/05/2023 21:58:17 - Inicio del programa - Inicio sin errores
+15/05/2023 21:58:23 - Login exitoso - Usuario: miguel
+15/05/2023 21:58:26 - Sesion cerrada - Usuario: miguel
+15/05/2023 21:58:31 - Login exitoso - Usuario: miguel
+15/05/2023 21:58:32 - Usuario actual - Usuario: miguel, ID: 1
+15/05/2023 22:01:29 - Inicio del programa - Inicio sin errores
+15/05/2023 22:01:34 - Login exitoso - Usuario: miguel
+15/05/2023 22:11:35 - Inicio del programa - Inicio sin errores
+15/05/2023 22:11:41 - Login exitoso - Usuario: miguel
+15/05/2023 22:12:29 - Sesion cerrada - Usuario: miguel
+15/05/2023 22:12:34 - Login exitoso - Usuario: miguel
+15/05/2023 22:12:37 - Usuario actual - Usuario: miguel, ID: 1
+15/05/2023 22:15:22 - Inicio del programa - Inicio sin errores
+15/05/2023 22:15:27 - Login exitoso - Usuario: miguel
+15/05/2023 22:15:51 - Usuario actual - Usuario: miguel, ID: 1
+15/05/2023 22:15:56 - Sesion cerrada - Usuario: miguel
+15/05/2023 22:16:02 - Login fallido - Usuario: miguel
+15/05/2023 22:16:06 - Login exitoso - Usuario: miguel
+15/05/2023 22:16:24 - Fin del programa - Finalizacion sin errores
