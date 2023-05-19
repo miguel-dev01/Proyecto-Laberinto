@@ -8,9 +8,10 @@ Para esta entrega se van a implementar una serie de funcionalidades extras para 
 
 Estado actual del proyecto: En implementación...
 
-Las funcionalidades nuevas pueden ser:
-  -
-  -
+Las funcionalidades nuevas son:
+  - Creación de un fichero txt para logs del programa. Recogiendo distintos tipos de eventos.
+  - Funcionalidad para que un usuario cualquiera pueda cambiar sus datos de usuario, y quede reflejado en la base de datos
+  - Funcionalidad para que un superusuario (admin) pueda crear usuarios, listarlos, borrarlos y actualizar sus datos de usuario.
 
 Notas: 
   - Puede contener errores
