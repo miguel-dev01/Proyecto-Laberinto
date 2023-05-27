@@ -6,7 +6,7 @@ Quinta parte del proyecto
 
 Para esta entrega se van a implementar una serie de funcionalidades extras para el programa del laberinto, tales como generación de informes en PDF, gestión de usuarios, logs del sistema, modificación de datos de usuario...
 
-Estado actual del proyecto: En implementación...
+Estado actual del proyecto: Finalizado
 
 Las funcionalidades nuevas son:
   - Creación de un fichero txt para logs del programa. Recogiendo distintos tipos de eventos.
